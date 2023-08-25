@@ -1,8 +1,8 @@
-import random
-num = random.randint(1, 4)
-path = "Dataset\\r"+str(num)+".txt"
-with open(path, "r") as file:
-    ref = file.read()
+def choice(num):
+    path = "Dataset\\r"+str(num)+".txt"
+    with open(path, "r") as file:
+        global ref
+        ref = file.read()
 
 
 def add(*x):
