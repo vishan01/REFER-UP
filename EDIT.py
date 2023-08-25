@@ -1,7 +1,6 @@
 
 with open("Dataset\\r1.txt", "r") as file:
     ref = file.read()
-    print(str(ref))
 
 
 def add(*x):
