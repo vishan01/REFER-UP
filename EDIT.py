@@ -1,6 +1,9 @@
-
-with open("Dataset\\r1.txt", "r") as file:
+import random
+num = random.randint(1, 4)
+path = "Dataset\\r"+str(num)+".txt"
+with open(path, "r") as file:
     ref = file.read()
+    print(ref)
 
 
 def add(*x):
