@@ -12,6 +12,6 @@ def choice(num):
 def add(*x):
     ref = str(ref)
     tags = ["ENAME", "YNAME", "YWORK", "YPLACE", "YJOB",
-            "YROLE", "YJOB", "YX", "YROLE", "YFNAME"]
+            "YROLE", "YX", "YROLE", "YFNAME"]
     for i in tags:
         ref.replace(tags[i], x[i])
