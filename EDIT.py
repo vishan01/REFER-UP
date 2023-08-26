@@ -10,7 +10,7 @@ def choice(num):
 
 
 def add(*x):
-    ref = str(ref)
+
     tags = ["ENAME", "YNAME", "YWORK", "YPLACE", "YJOB",
             "YROLE", "YX", "YFNAME"]
     for i in tags:
