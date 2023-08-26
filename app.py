@@ -15,7 +15,7 @@ x.append(st.text_input("Enter The Job industry"))
 x.append(st.text_input("Enter The Job Role"))
 x.append(st.text_input("Enter Your Years of Experience In The Role"))
 x.append(x[0].split(" ")[0])
-
+print(len(x))
 EDIT.add(x)
 
 st.write(EDIT.ref)

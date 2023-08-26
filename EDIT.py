@@ -9,9 +9,9 @@ def choice(num):
         ref = file.read()
 
 
-def add(*x):
+def add(x):
 
     tags = ["ENAME", "YNAME", "YWORK", "YPLACE", "YJOB",
             "YROLE", "YX", "YFNAME"]
     for i in range(len(tags)):
-        ref.replace(tags[i], x[i])
+        ref.replace(str(tags[i]), str(x[i]))
