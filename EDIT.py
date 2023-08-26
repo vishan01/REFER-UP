@@ -1,3 +1,7 @@
+import streamlit as st
+
+
+@st.cache_data
 def choice(num):
     path = "Dataset\\r"+str(num)+".txt"
     with open(path, "r") as file:
