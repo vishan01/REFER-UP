@@ -32,6 +32,8 @@ Refer Up is a streamlined Streamlit app designed to simplify the process of gene
 5. **Compose Your Referral Message:** Explore the templates, choose the one aligning with your goal, personalize it, and preview it live.
 
 6. **Copy and Share:** When content with your message, tap the "Copy" button and paste it into your preferred messaging app. Witness the referrals flow in!
+  
+7. **Or Simply** visit https://referup.streamlit.app/
 
 ## Need Assistance?
 
