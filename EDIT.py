@@ -1,7 +1,8 @@
 import streamlit as st
 
+ref = ""
 
-@st.cache_data
+
 def choice(num):
     path = "Dataset\\r"+str(num)+".txt"
     with open(path, "r") as file:
@@ -10,8 +11,8 @@ def choice(num):
 
 
 def add(x):
-
     tags = ["ENAME", "YNAME", "YWORK", "YPLACE", "YJOB",
             "YROLE", "YX", "YFNAME"]
+    global ref
     for i in range(len(tags)):
-        ref.replace(str(tags[i]), str(x[i]))
+        ref = ref.replace(tags[i], x[i])
