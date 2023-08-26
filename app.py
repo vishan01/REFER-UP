@@ -14,7 +14,7 @@ x.append(st.text_input("Enter Your Place of Work/Education"))
 x.append(st.text_input("Enter The Job industry"))
 x.append(st.text_input("Enter The Job Role"))
 x.append(st.text_input("Enter Your Years of Experience In The Role"))
-x.append(x[0].split(" ")[0])
+x.append(x[1].split(" ")[0])
 
 if st.button("Generate"):
     EDIT.add(x)
