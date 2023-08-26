@@ -1,12 +1,18 @@
+import streamlit as st
 
-with open("Dataset\\r1.txt", "r") as file:
-    ref = file.read()
-    print(str(ref))
+ref = ""
 
 
-def add(*x):
-    ref = str(ref)
+def choice(num):
+    path = "Dataset\\r"+str(num)+".txt"
+    with open(path, "r") as file:
+        global ref
+        ref = file.read()
+
+
+def add(x):
     tags = ["ENAME", "YNAME", "YWORK", "YPLACE", "YJOB",
-            "YROLE", "YJOB", "YX", "YROLE", "YFNAME"]
-    for i in tags:
-        ref.replace(tags[i], x[i])
+            "YROLE", "YX", "YFNAME"]
+    global ref
+    for i in range(len(tags)):
+        ref = ref.replace(tags[i], x[i])
