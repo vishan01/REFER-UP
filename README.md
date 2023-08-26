@@ -1,7 +1,6 @@
 # Refer Up - Your Referral Message Generator
 
-
-
+<div align="center"> <img width=50% src="https://media2.giphy.com/media/aOften89vRbG/giphy.gif?cid=ecf05e47xuwwtacfjo0fk2ysy2cy1eqikfi92y2wrmy2ui0x&ep=v1_gifs_search&rid=giphy.gif&ct=g"></div>
 
 ## What is Refer Up?
 
