@@ -9,7 +9,7 @@ x = []
 x.append(st.text_input("Enter The Reciever Name",
          autocomplete="Hiring Team/Manager"))
 x.append(st.text_input("Enter Your Name"))
-x.append(st.text_input("Enter Your Current Profession/Study"))
+x.append(st.text_input("Enter Your Current Profession"))
 x.append(st.text_input("Enter Your Place of Work/Education"))
 x.append(st.text_input("Enter The Job industry"))
 x.append(st.text_input("Enter The Job Role"))
