@@ -13,5 +13,5 @@ def add(*x):
 
     tags = ["ENAME", "YNAME", "YWORK", "YPLACE", "YJOB",
             "YROLE", "YX", "YFNAME"]
-    for i in tags:
-        ref.replace(i, x[i.index])
+    for i in range(len(tags)):
+        ref.replace(tags[i], x[i])
