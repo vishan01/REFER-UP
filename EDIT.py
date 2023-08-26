@@ -4,7 +4,7 @@ ref = ""
 
 
 def choice(num):
-    path = r"Dataset\r"+str(num)+".txt"
+    path = r"Dataset/r"+str(num)+".txt"
     with open(path, "r") as file:
         global ref
         ref = file.read()
