@@ -1,6 +1,6 @@
 # Refer Up - Your Referral Message Generator
 
-<img width=2000 height=200 src="https://media2.giphy.com/media/aOften89vRbG/giphy.gif?cid=ecf05e47xuwwtacfjo0fk2ysy2cy1eqikfi92y2wrmy2ui0x&ep=v1_gifs_search&rid=giphy.gif&ct=g">
+<img width=2000 height=500 src="https://media2.giphy.com/media/aOften89vRbG/giphy.gif?cid=ecf05e47xuwwtacfjo0fk2ysy2cy1eqikfi92y2wrmy2ui0x&ep=v1_gifs_search&rid=giphy.gif&ct=g">
 
 ## What is Refer Up?
 
