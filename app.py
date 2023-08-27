@@ -1,7 +1,6 @@
 import EDIT
 import streamlit as st
 import random
-import sys
 
 rnum = random.randint(1, 4)
 EDIT.choice(rnum)
@@ -21,5 +20,4 @@ x.append(x[1].split(" ")[0])
 if st.button("Generate"):
     EDIT.add(x)
     st.write(EDIT.ref)
-    if st.button("Copy to clipboard"):
-        pass
+    
