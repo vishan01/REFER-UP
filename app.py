@@ -20,6 +20,6 @@ x.append(x[1].split(" ")[0])
 if st.button("Generate"):
     EDIT.add(x)
     st.write(EDIT.ref)
-
-if st.button("Copy to clipboard"):
-    clipboard.copy(EDIT.ref)
+    if st.button("Copy to clipboard"):
+        clipboard.copy(EDIT.ref)
+        
