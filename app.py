@@ -19,5 +19,5 @@ x.append(x[1].split(" ")[0])
 
 if st.button("Generate"):
     EDIT.add(x)
-    st.write(EDIT.ref)
+    st.markdown(EDIT.ref)
     
