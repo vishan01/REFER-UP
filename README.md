@@ -1,7 +1,6 @@
 # Refer Up - Your Referral Message Generator
 
-
-
+<img width=2000 height=500 src="https://media2.giphy.com/media/aOften89vRbG/giphy.gif?cid=ecf05e47xuwwtacfjo0fk2ysy2cy1eqikfi92y2wrmy2ui0x&ep=v1_gifs_search&rid=giphy.gif&ct=g">
 
 ## What is Refer Up?
 
@@ -32,6 +31,8 @@ Refer Up is a streamlined Streamlit app designed to simplify the process of gene
 5. **Compose Your Referral Message:** Explore the templates, choose the one aligning with your goal, personalize it, and preview it live.
 
 6. **Copy and Share:** When content with your message, tap the "Copy" button and paste it into your preferred messaging app. Witness the referrals flow in!
+  
+7. **Or Simply** visit https://referup.streamlit.app/
 
 ## Need Assistance?
 
